@@ -88,7 +88,7 @@ We use **Average Displacement Error (ADE)**:
 ---
 
 #### Milestone 1: Basic End-to-End Planner
-**Deadline**: 2025-05-02, 11:59 PM
+**Deadline**: 2026-05-01, 11:59 PM
 
 Implement an end-to-end model that predicts future trajectories based on:
 
@@ -99,7 +99,7 @@ Implement an end-to-end model that predicts future trajectories based on:
 👉 **Reference**: [Colab Starter Code](https://colab.research.google.com/drive/16u0e_gKDLL4cPmCxYaRqdxp9bWKj-Buv?usp=sharing)
 
 ##### Deliverables
-- [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/t/338eec1b2cd346eaa3b569340ab2de19)
+- [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/t/20c6806b7576494e8a02211bfd31ffdd)
   - **Full score**: ADE < 2
   - **Zero score**: ADE > 4
   - **Formula**: `Score = 100 * (4 - ADE) / 2`
@@ -116,8 +116,8 @@ Implement an end-to-end model that predicts future trajectories based on:
 ---
 
 #### Milestone 2: Perception-Aware Planning
-**Release**: 2025-04-25  
-**Deadline**: 2025-05-16, 11:59 PM
+**Release**: 2026-04-24
+**Deadline**: 2026-05-15, 11:59 PM
 
 Enhance your model by introducing perception-based auxiliary tasks (e.g., semantic segmentation, depth estimation).
 
@@ -126,7 +126,7 @@ Enhance your model by introducing perception-based auxiliary tasks (e.g., semant
 
 ##### Deliverables & Grading
 
-- [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/t/a7295af1cfa349eeb57d08538d44cf58)
+- [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/competitions/dlav-2026-phase-2)
   - **Full score**: ADE < 1.60
   - **Zero score**: ADE > 2.00
   - **1.5 < ADE < 2.0:** `Score = 250 * (2.0 - ADE) `
@@ -143,8 +143,8 @@ Enhance your model by introducing perception-based auxiliary tasks (e.g., semant
 ---
 
 #### Milestone 3: Sim-to-Real Generalization
-**Release**: 2025-05-09  
-**Deadline**: 2025-05-23, 11:59 PM
+**Release**: 2026-05-08
+**Deadline**: 2026-05-22, 11:59 PM
 
 Evaluate your planner in challenging real-world domains. Details can be found here: [Colab Starter Code](https://colab.research.google.com/drive/1apQZtbgvS2lUxp0khlbBTeq_jfyipL-d?usp=sharing). Kaggle submissions will be released soon.
 
@@ -153,7 +153,7 @@ Note:
 2. Try to use data augmentation to improve the performance.
 
 
-- [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/t/802ad533a6d2477e91fd72c9a030ff15)
+- [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/competitions/dlav-2026-phase-3)
   - **Full score**: ADE < 1.8
   - **Zero score**: ADE > 2
   - **Formula**: `Score = 100 * (2 - ade) / 0.2`
@@ -166,17 +166,26 @@ Note:
   - Include a README that explains the structure and how to run/train/infer
 ---
 
-#### Bonus: Submission to the [NAVSIM Leaderboard](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navsim)
-**Release**: 2025-05-09   
+<!-- #### Bonus: Language-Guided Planning
+**Release**: 2026-05-08
 **Deadline**: TBD
 
 **Note**: This is a bonus task and is not mandatory.
 
-Are you confident in your model's performance? Submit to the NAVSIM leaderboard and see how it stacks up against other SOTA models!
+Can your planner understand natural language? In this bonus challenge, you will augment your end-to-end planner with a language interface. Instead of using discrete driving commands (`forward`, `left`, `right`), your model should accept free-form natural language navigation instructions (e.g., *"Turn left at the next intersection"*, *"Slow down, there is a pedestrian ahead"*) and produce future trajectories accordingly.
+
+##### Requirements
+- Replace or augment the `driving_command` input with a natural language instruction encoder (e.g., a pretrained language model such as CLIP text encoder or a lightweight LLM).
+- Demonstrate that your model responds meaningfully to varied language inputs on the validation set.
+- Provide a qualitative analysis (visualizations) showing how different instructions change the predicted trajectory.
+
+##### Suggested References
+- [**LMDrive**](https://arxiv.org/abs/2312.07488) – Language-guided end-to-end autonomous driving.
+- [**DriveGPT4**](https://arxiv.org/abs/2310.01415) – Interpretable end-to-end driving via large language models.
 
 Contact Lan for more details (lan.feng@epfl.ch) if you are interested in this task.
 
----
+--- -->
 
 ### Final Grading Breakdown
 
