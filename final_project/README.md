@@ -113,7 +113,7 @@ Implement an end-to-end model that predicts future trajectories based on:
 - Use SCITAS if Colab is slow
 - Stick strictly to the allowed input modalities
 
----
+<!-- ---
 
 #### Milestone 2: Perception-Aware Planning
 **Release**: 2026-04-24
@@ -164,7 +164,7 @@ Note:
   - Push to GitHub under the **[VITA student projects](https://github.com/vita-student-projects)** (Ask your TA to add your GitHub account)
 
   - Include a README that explains the structure and how to run/train/infer
----
+--- -->
 
 <!-- #### Bonus: Language-Guided Planning
 **Release**: 2026-05-08
