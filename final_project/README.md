@@ -113,7 +113,7 @@ Implement an end-to-end model that predicts future trajectories based on:
 - Use SCITAS if Colab is slow
 - Stick strictly to the allowed input modalities
 
-<!-- ---
+---
 
 #### Milestone 2: Perception-Aware Planning
 **Release**: 2026-04-24
@@ -185,7 +185,7 @@ Can your planner understand natural language? In this bonus challenge, you will 
 
 Contact Lan for more details (lan.feng@epfl.ch) if you are interested in this task.
 
---- -->
+---
 
 ### Final Grading Breakdown
 
