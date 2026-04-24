@@ -129,7 +129,7 @@ Enhance your model by introducing perception-based auxiliary tasks (e.g., semant
 - [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/competitions/dlav-2026-phase-2)
   - **Full score**: ADE < 1.60
   - **Zero score**: ADE > 2.00
-  - **1.5 < ADE < 2.0:** `Score = 250 * (2.0 - ADE) `
+  - **1.6 < ADE < 2.0:** `Score = 250 * (2.0 - ADE) `
 
 [//]: # (  - **Formula**: `Score = 100 * &#40;4 - ADE&#41; / 2`)
 
