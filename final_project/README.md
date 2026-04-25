@@ -113,7 +113,7 @@ Implement an end-to-end model that predicts future trajectories based on:
 - Use SCITAS if Colab is slow
 - Stick strictly to the allowed input modalities
 
-<!-- ---
+---
 
 #### Milestone 2: Perception-Aware Planning
 **Release**: 2026-04-24
@@ -129,7 +129,7 @@ Enhance your model by introducing perception-based auxiliary tasks (e.g., semant
 - [**80%**] Kaggle Submission: Submit to [Kaggle Leaderboard](https://www.kaggle.com/competitions/dlav-2026-phase-2)
   - **Full score**: ADE < 1.60
   - **Zero score**: ADE > 2.00
-  - **1.5 < ADE < 2.0:** `Score = 250 * (2.0 - ADE) `
+  - **1.6 < ADE < 2.0:** `Score = 250 * (2.0 - ADE) `
 
 [//]: # (  - **Formula**: `Score = 100 * &#40;4 - ADE&#41; / 2`)
 
@@ -185,7 +185,7 @@ Can your planner understand natural language? In this bonus challenge, you will 
 
 Contact Lan for more details (lan.feng@epfl.ch) if you are interested in this task.
 
---- -->
+---
 
 ### Final Grading Breakdown
 
