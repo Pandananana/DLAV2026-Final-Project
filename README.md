@@ -1,8 +1,5 @@
-# Deep Learning for Autonomous Vehicles
+# DLAV Project
 
-Deep Learning for Autonomous Vehicles course (CIVIL-459) taught at [EPFL](https://www.epfl.ch/en/) by [Prof. Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en), Spring 2026
+## Phase 1
 
-This repository is for the exercises, homework and project. The course syllabus can be found [here](https://edu.epfl.ch/coursebook/fr/deep-learning-for-autonomous-vehicles-CIVIL-459).
-
-Extra Resources:
-1. [Python Primer](https://github.com/vita-epfl/introML-2026/tree/main/exercises)
+Everything lives in `final_project/DLAV_Phase1.ipynb`. Run `uv sync && uv run jupyter lab`, open the notebook, run cells top-to-bottom: it downloads data, trains (`phase1_model.pth`), and writes `submission_phase1.csv` for Kaggle.
